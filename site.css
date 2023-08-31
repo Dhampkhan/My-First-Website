@@ -1,0 +1,487 @@
+.body{
+    /* font: 13px/18px Arial, Helvetica, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    font-style: normal;
+    color: #727272;
+    position: relative;
+    /* width: 1248px; */
+    min-width: 960px;
+    padding-top: 15px;
+    background: url(images/body-bg.png);
+    overflow-x: hidden;
+}
+#menu{
+    margin-left: 258px;
+}
+.navimg{
+    margin-left: 149px;
+}
+.nav-item{
+    margin-left: 50px;
+}
+i:hover{
+    color: red;
+    transition: 0.6s ease;
+}
+.catA{
+    text-decoration: none;
+    color: #000;
+    outline: none;
+    transition: 1s ease;
+}
+header::after{
+    height: 4px;
+    background-color: #bababa;
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: -4px;
+}
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 15px;
+    display: block;
+    position: relative;
+    z-index: 998;
+    background: #fff;
+    padding-top: 22px;
+    padding-bottom: 15px;
+}
+/* header>h1>a>img  {
+    z-index: 910;
+    float: left;
+    text-align: center;
+}
+header h1 a {
+    display: inline-block;
+    overflow: hidden;
+    width: 173px;
+    height: 68px;
+}
+header h1 a img {
+    display: block;
+} */
+
+/* ================================= Above are every page + menu(navbar) css ============================================== */
+
+/* ================================= Bellow are Index page css ====================================================== */
+
+.center{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #b9b9b9;
+    margin-top: 35px;
+}
+.welcome{
+    font-size: 26px;
+    line-height: 28px;
+    color: #909090;
+    margin-bottom: 27px;
+}
+.col1{
+    color: #313131;
+}
+.title1{
+    border-bottom: 1px solid #e8e8e8;
+    padding-top: 25px;
+    padding-bottom: 17px;
+    color: #444;
+    margin-bottom: 19px;
+    text-align: left;
+    width: 220px;
+    font: bold italic 18px/22px Georgia, 'Times New Roman', Times, serif;
+}
+.indextitle{
+    margin-left: 126px;
+}
+.prefix{
+    width: 420px;
+    margin-top: 51px;
+    margin-bottom: 61px;
+}
+.img1{
+    width: 220px;
+}
+.page1{
+    width: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+a.btn{
+    color: #313131;
+    display: inline-block;
+    border: 1px solid #ececec;
+    font: italic 12px/16px Georgia, 'Times New Roman', Times, serif;
+    padding: 7px 18px 10px 18px;
+    margin-top: 26px;
+    background-color: #fff;
+    border-radius: 0%;
+}
+a.btn:hover{
+    background-color: #3c3c3c;
+    color: #fff;
+    border-color: #3c3c3c;
+}
+.kitten{
+    padding-bottom: 15px;
+    padding-top: 43px;
+    background: url(images/kitten_bg.jpg) center 0 no-repeat;
+    font: bold 48px/55px Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.kitten a{
+    font-style: italic;
+    font-size: 20px;
+    display: block;
+    padding-right: 18px;
+    margin-top: -5px;
+    margin-right: 64px;
+    background: url(images/link_marker.png) 220px 25px no-repeat;
+    text-decoration: none;
+    color: #fff;
+}
+.kitten a:hover{
+    text-decoration: none;
+    color: red;
+}
+.kitten em{
+    display: block;
+    text-align: center;
+}
+.kitten span{
+    display: inline-block;
+    margin-left: 13%;
+}
+.kitten em a{
+    line-height: 55px;
+}
+.LK{
+    margin-left: 38px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3e3e3e;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 25px;
+    padding-top: 49px;
+    margin-bottom: 27px;
+    width: 155px;
+}
+.LK2{
+    font-size: 22px;
+    line-height: 26px;
+    color: #3e3e3e;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 25px;
+    padding-top: 49px;
+    margin-bottom: 27px;
+    width: 340px;
+}
+.LKK{
+    margin-left: 92px;
+}
+.Lklist li{
+    text-transform: uppercase;
+    padding-left: 22px;
+    background: url(images/marker.png) 0 6px no-repeat;
+    margin-bottom: 7px;
+}
+.Lklist>li>a{
+    font-size: 10px;
+}
+.f1{
+    display: block;
+    margin-top: -2px;
+    margin-bottom: 17px;
+    width: 340px;
+}
+.f1 figcaption{
+    display: block;
+}
+.f1 figcaption a{
+    display: block;
+    background-color: #f5f5f5;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    font: italic 18px/48px Georgia, 'Times New Roman', Times, Serif;
+    color: #3c3c3c;
+    text-align: center;
+}
+.f1 figcaption a:hover{
+    background-color: #333;
+    color: #fff;
+}
+a.link3{
+    display: inline-block;
+    min-width: 9px;
+    height: 10px;
+    background: url(images/link_arrow.png) 0 3px no-repeat;
+}
+/* a.link3:hover{
+    background: right center;
+    color: red;
+} */
+.p{
+    width: 340px;
+}
+.cl1{
+    background-color: #fff;
+    height: auto;
+}
+
+/* ===================================== Below are Article page css ====================================================*/
+.a{
+    color: #034877;
+}
+.a:hover{
+    color: #000;
+    text-decoration: none;
+}
+#div{
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-right: 80px;
+    padding: 30px;
+}
+.btn-primary{
+    background: #1f3b73;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+/* .btn-primary:hover{
+    color: #000;
+} */
+
+
+/* ======================================= Below are Cat Page css ===================================== */
+h3{  /*====== its h3 =======*/
+    font-size: 22px;
+    line-height: 26px;
+    color: #3e3e3e;
+    border-bottom: 1px solid #000;
+    padding-bottom: 25px;
+    padding-top: 49px;
+    margin-bottom: 27px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4b4b4b;
+    font-style: italic;
+    font-weight: normal;
+}
+li{
+    display: list-item;
+    margin-bottom: 3px;
+}
+ul{
+    list-style: none;
+}
+/* ul.list li{
+    text-transform: uppercase;
+    padding-left: 22px;
+    background: url(images/marker.png) 0 6px no-repeat;
+    font-size: 15px;
+} */
+.block1 img {
+    margin: 0 0 10px;
+    display: block;
+    float: left;
+    width: 104px;
+}
+img{
+    max-width: 100%;
+    vertical-align: top;
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+p{
+    margin-bottom: 20px;
+}
+
+/* ==================================================== Below are Links Page Css =============================================== */
+
+.link1{
+    margin-top: 15px;
+}
+.link2{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+/* ==================================================== Below are Contacts Page Css ================================================ */
+
+.map>figure>iframe {
+    width: 100% !important;
+    height: 300px;
+    float: none !important;
+    margin-right: 20px !important;
+}
+
+dd{
+    display: block;
+    margin-block-start: 0px;
+}
+address{
+    font-style: normal;
+}
+#form{
+    padding-top: 2px;
+}
+#form>fieldset>label>input {
+    color: #727272;
+    padding: 7px 18px 9px;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    width: 100%;
+    height: 34px;
+    float: left;
+    font: 13px/18px Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+#form>fieldset>label>textarea {
+    color: #727272;
+    border: 1px solid #dfdfdf;
+    padding: 6px 18px 9px;
+    width: 570px;
+    height: 254px;
+    position: relative;
+    resize: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    float: left;
+    font-size: 13px/18px;
+    font: Arial, Helvetica, sans-serif;
+}
+#form>fieldset>label{
+    position: relative;
+    display: block;
+    min-height: 53px;
+    width: 281px;
+    clear: left;
+    /* float: left; */
+}
+.btns{
+    position: relative;
+    padding-top: 29px;
+    text-align: right;
+}
+#div1{
+    padding-right: 60px;
+}
+.btns>.btn{
+    font-size: 12px;
+    color: #313131;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    border-radius: 0px;
+    padding: 7px 19px 10px;
+    margin-left: 18px !important;
+    margin-top: 30px;
+    min-width: 100px;
+    /* height: ; */
+}
+
+/* ===================================================== Footer Css =================================================== */
+
+.f_top{
+    background: url(images/bot_bg.png);
+    box-shadow: inset 0 3px 3px #dcdcdc;
+}
+.f_top>div>div{
+    background: url(images/bg_footer.png) 0 0 repeat-x;
+}
+footer{
+    display: block;
+    margin-bottom: 10px;
+    background-color: #fff;
+    float: left;
+    width: 100%;
+}
+.copy{
+    text-align: center;
+    background-color: #fff;
+    font-size: 15px;
+    font: italic 15px 'Times New Roman', Times, serif;
+}
+.h4{
+    font-size: 22px;
+    line-height: 26px;
+    color: #3e3e3e;
+    padding-top: 43px;
+}
+.socials{
+    padding-top: 10px;
+    padding-bottom: 37px;
+}
+.socials a{
+    display: inline-block;
+    width: 36px;
+    border-radius: 500px;
+    height: 36px;
+    margin-left: 1px;
+    position: relative;
+}
+.socials a:before{
+    background: url(images/socials.png) 0 0 no-repeat;
+    width: 36px;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    height: 36px;
+}
+.socials a+a{
+    margin-left: -1px;
+}
+.socials a+a:before{
+    background-position: -39px 0;
+}
+.socials a+a+a:before{
+    background-position: -78px 0;
+}
+.socials a+a+a+a:before{
+    background-position: right 0;
+}
+.socials a:hover:after {
+	width: 34px;
+	z-index: 1;
+	height: 34px;
+	content: '';
+	display: block;
+	left: 1px;
+	top: 1px;
+	position: absolute;
+	border-radius: 500px;
+	background-color: #000;
+}
+.copy{
+    padding: 37px 0;
+}
+.copy span{
+    display: inline-block;
+    background: url(images/footer_logo.png) 0 1px no-repeat;
+    width: 11px;
+    margin-top: 3px;
+    height: 11px;
+}
+.copy strong{
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: #7e7e7e;
+    margin: 8px 7px 0;
+    border-radius: 2px;
+}
